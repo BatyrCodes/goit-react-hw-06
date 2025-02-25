@@ -1,14 +1,14 @@
 import React from "react";
 import ContactForm from "./components/ContactForm/ContactForm";
 import SearchBox from "./components/SearchBox/SearchBox";
-import Contact from "./components/Contact/Contact";
+import ContactList from "./components/ContactList/ContactList";
 
 function App() {
   return (
     <div>
       <ContactForm />
       <SearchBox />
-      <Contact />
+      <ContactList />
     </div>
   );
 }
